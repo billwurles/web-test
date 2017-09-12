@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta name="author" content="Will Burles">
+		<meta charset="UTF-8">
+		<script src="includes/jquery-3.1.1.js"></script>
+		<script src="includes/scripts.js"></script>
+		<title>Fuego - Contact</title>
+		<link href = "includes/styles.css" rel = "stylesheet" type = "text/css" >
+	</head>
+	<body>
+	<header>
+		<a href="index.html"><img src="includes/images/logo.png" alt="Fuego, the logo of the band"></a>
+	</header>
+		<nav>
+			<ul>
+		        <li><a href="index.html">Home</a></li>
+			    <li><a href="tours.html">Tour Dates</a></li>
+			    <li><a href="discography.html">Discography</a></li>
+				<li><a href="merchandise.html">Merchandise</a></li>
+				<li class="current"><a href="contact.html">Contact Us</a></li>
+	       	</ul>
+		</nav>
+		<div id="content" style="background-color: rgba(79, 79, 79, 0.80); margin-bottom: 70px;">
+			<ul id="social">
+				<li><a href="#"><img src="includes/images/logos/facebook.png" alt="Like us on facebook!"></a></li>
+				<li><a href="#"><img src="includes/images/logos/twitter.png" alt="Follow us on twitter!"></a></li>
+				<li><a href="#"><img src="includes/images/logos/instagram.png" alt="Follow us on instagram"></a></li>
+				<li><a href="#"><img src="includes/images/logos/googleplus.png" alt="Hangout with us on Google Plus"></a></li>
+				<li><a href="#"><img src="includes/images/logos/vimeo.png" alt="Follow us on Vimeo"></a></li>
+				<li><a href="#"><img src="includes/images/logos/youtube.png" alt="Subscribe to our YouTube"></a></li>
+				<li><a href="#"><img src="includes/images/logos/soundcloud.png" alt="Follow us on soundcloud"></a></li>
+				<li><a href="#"><img src="includes/images/logos/itunes.png" alt="Buy our albums on iTunes"></a></li>
+			</ul>
+			
+			<form style="padding: 25px;" id="messageSender">
+				
+				<label for="name">Name</label><input type="text" name="name" id="name" size="50"><p id="nameText"></p>
+				<br><label for="email">Email</label><input type="email" name="email" id="email" size="50"><p id="emailText"></p>
+				<br><label for="message">Message:</label><p id="messageText"></p>
+				<textarea name="message" id="message" rows="10"></textarea>
+				<br><button class="button-send" type="button" onclick="sendEmail()">Send</button>
+			</form>
+			<!--a class="twitter-timeline" href="https://twitter.com/TwitterDev">Tweets by TwitterDev</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script-->
+		</div>
+	<footer>
+		<p>Disclaimer: This site has been constructed as coursework for module U08054 Web Technology, at Oxford Brookes University.  It is not a working website and is not connected with any site or individual referenced.</p>
+		<p>The views and opinions expressed within these pages are personal and should not be construed as reflecting the views and opinions of Oxford Brookes University.
+		</p>
+	</footer>
+	</body>
+</html>

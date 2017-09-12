@@ -1,0 +1,455 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	background: url("images/acoustic.jpg")  no-repeat center fixed;
+	background-size: cover;
+}
+
+.logo {
+	float: right;
+	padding: 10px;
+}
+
+header {
+	background-color: rgba(97, 97, 97, 0.88);
+	height: 110px;
+	text-align: right;
+	box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+	z-index: 1000;
+}
+
+.home-header {
+	position: absolute;
+	right: 0;
+	background-color: rgba(97, 97, 97, 0.4);
+	margin:0px;
+	padding:0px;
+	border-radius: 5px;
+}
+
+nav {
+	background-color: rgba(97, 97, 97, 0.88);
+	position: absolute;
+	width: 225px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding: 15px 0;
+	padding-left: 30px;
+	margin: 20px 10px;
+	box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+}
+
+nav ul li {
+	list-style: none;
+	padding: 2px 0px;
+}
+
+nav a {
+	color: white;
+	letter-spacing: 0.05em;
+	font: bolder 16pt 'verdana', arial, sans-serif;
+	text-align: left;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+
+nav a:hover, nav li.current a {
+	color: #FCC42A
+}
+
+nav a:active, nav li.current a:active {
+	color: #EDAF05;
+}
+
+nav p {
+	font: bolder 7pt 'verdana', arial, sans-serif;
+	color: white;
+	padding-top: 10px;
+	padding-right: 20px;
+}
+
+.selected {
+	color: #FCC42A
+}
+
+#content {
+	margin-top: 20px;
+	margin-left: 250px;
+	margin-right: 10px;
+	border-radius: 10px;
+	min-height: 70vh;
+	padding-bottom: 70px;
+}
+
+footer {
+	padding: 0.5em 2em;
+	font: bolder 9pt 'verdana', arial, sans-serif;
+	background-color: rgba(97, 97, 97, 0.88);
+	color: #E1E1E1;
+	margin-top:2em;
+	height: 70px;
+	text-align: center;
+}
+
+.home-footer {
+	position: absolute;
+	bottom: 0;
+	padding: 1em 0em;
+	font: bolder 9pt 'verdana', arial, sans-serif;
+	background-color: rgba(97, 97, 97, 0.6);
+	color: #E1E1E1;
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+
+#album {
+	background: url("images/acoustic.jpg") no-repeat center fixed;
+	background-size:cover;
+	position:static;
+	height: 100%;
+	z-index: 10;
+	width: 100%;
+}
+
+.button-album {
+	margin-top: 10px;
+	background-color: #177bb1;
+    color: rgba(255, 255, 252, 0.78);
+    text-align: center;
+    border: 1px groove black;
+    text-decoration: none;
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.button-album:hover {
+    box-shadow: 0 12px 16px #3d3d3d;
+}
+
+.button-album:active {
+	background-color: #1fa6ef;
+    color: #DEDEDE;
+}
+
+table#tour {
+	font: bolder 18pt 'verdana', arial, sans-serif;
+	text-align: left;
+	width: 100%;
+	color: #00ABF4;
+	margin-top: -10px;
+	border-spacing: 0px 10px;
+	border-collapse: separate;
+}
+
+tr:first-child th:first-child {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+tr:first-child th:last-child {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+td:last-child {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+td:first-child {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+table#tour td, table#tour th{
+	background-color: rgba(97, 97, 97, 0.77);
+	padding: 10px 0px;
+	color: #00ABF4;
+}
+
+table#tour h1, table#tour h2, table#tour h3, table#tour a {
+  	padding: 10px 10px;
+	display: inline;
+    width: 25%;
+	font-size: 18pt;
+}
+table#tour h1{
+	color: #00ABF4;
+	padding-left: 20px;
+}
+table#tour h2, table#tour h3 { color: #EAEAEA; }
+table#tour th { color: #EAEAEA; text-align: center;}
+
+table#tour a {
+	color: #E50000;
+	text-decoration: none;
+}
+table#tour a:hover { color: #FF0404; }
+
+
+
+ul#discog {
+	list-style: none;
+	
+}
+
+ul#discog li {
+	display: list-item;
+	text-align: left;
+	background-color: rgba(97, 97, 97, 0.77);
+	border-radius: 5px;
+	height: 136px;
+	margin: 20px 20px 0px 10px;
+	box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+}
+
+ul#discog h1 {
+	position: absolute;
+	margin-left: 150px;
+	color: white;
+	font: bolder 32pt 'verdana', arial, sans-serif;
+}
+
+ul#discog p {
+	text-align: right;
+	padding: 10px;
+	color: white;
+	font: bolder 12pt 'verdana', arial, sans-serif;
+}
+
+.albumimg {
+	float: left;
+	clear:left;
+	display: inline;
+	border: 3px solid rgba(63, 63, 63, 0.73);
+	border-radius: 4px;
+	width: 130px;
+	height: 130px;
+}
+
+.button-tracks {
+	position: absolute;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    padding: 8px 10px;
+	display: inline;
+	margin-left: 155px;
+	margin-top: 80px;
+    box-shadow: 0 12px 16px rgba(33, 33, 33, 0.5);
+    background-color: #EDAF05;
+}
+
+.button-tracks:hover {
+    box-shadow: 0 12px 20px rgba(33, 33, 33, 0.7);
+	background-color: #F3B50D;
+}
+
+.button-tracks:active {
+    box-shadow: 0 12px 20px rgba(33, 33, 33, 0.2);
+	background-color: #F2CD64;
+}
+
+ul#tracks {
+	list-style: none;
+}
+
+ul#tracks li {
+	display: list-item;
+	text-align: left;
+	border: 1px solid rgba(63, 63, 63, 0.73);
+	background-color: rgba(97, 97, 97, 0.77);
+	border-radius: 3px;
+	height: 40px;
+	margin: 0px 20px 0px 10px;
+}
+
+ul#tracks li:first-child {
+	border-top: 2px solid rgba(41, 41, 41, 0.73);
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+ul#tracks p {
+	visibility: visible;
+}
+
+.tracktitle {
+	position: relative;
+	color: white;
+	text-align: left;
+	font: bolder 12pt 'verdana', arial, sans-serif;
+	display: inline-block;
+	margin-top: 0px;
+	padding-bottom: 100px;
+}
+
+
+
+ul#merch {
+	list-style: none;
+	margin: auto;
+	padding-left: 10vh;
+	padding-top: 20px;
+	width: 80%;
+}
+
+ul#merch li {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+	height: 150px;
+	margin: 10px 30px 30px 10px;
+}
+
+ul#merch p, h1 {
+	font: bolder 12pt 'verdana', arial, sans-serif;
+    color: white;
+}
+
+ul#merch p {  
+    color: white;
+    font-size: 9pt;
+    padding-top: 30px; 
+    width: 135px;
+    height: 115px;
+}
+
+.item {
+	position: relative; 
+	width: 100%;
+}
+
+.overlay {
+  position: relative;
+}
+
+.overlay:after {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	content: "";
+	top: 3px;
+	left: 3px;
+	right: 3px;
+	background-color: black;
+	opacity: 0;
+	z-index: 20;
+}
+
+.overlay:hover:after  {
+	opacity: .4;
+}
+
+.itemdescription {
+	position: absolute;
+	padding: 10px;
+	overflow: auto;
+	width: 100%;
+	z-index: 30; 
+    font-weight:bold;
+    visibility: hidden;
+}
+
+.overlay:hover .itemdescription {
+	visibility: visible;
+}
+
+.merchimg {
+	width: 150px;
+	height: 150px;
+	border: 3px solid rgba(63, 63, 63, 0.73);
+	border-radius: 4px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	width: 150px;
+	height: 150px;
+	color: rgba(0, 0, 0, 0.6)
+}
+
+
+
+
+ul#social {
+	padding-top: 20px;
+	text-align: center;
+	opacity: 1;
+}
+
+ul#social li {
+	list-style: none;
+	display: inline-block;
+	padding: 0px 10px 0px 10px;
+	opacity: 1;
+}
+
+ul#social img {
+	width: 70px;
+	height: 70px;
+}
+
+ul#social img:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15), -5px -5px 10px rgba(0, 0, 0, 0.15), -5px 5px 10px rgba(0, 0, 0, 0.15), 5px -5px 10px rgba(0, 0, 0, 0.15);
+}
+ul#social img:active {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05), -3px -3px 5px rgba(0, 0, 0, 0.05), -3px 3px 5px rgba(0, 0, 0, 0.05), 3px -3px 5px rgba(0, 0, 0, 0.05);
+}
+
+form label {
+	display: inline;
+	margin-right: 3em;
+	font: bolder 11pt 'verdana', arial, sans-serif;
+    color: white;
+}
+
+form p {
+	display: inline;
+	padding-left: 20px;
+	font: bolder 8pt 'verdana', arial, sans-serif;
+    color: red;
+}
+
+input[type=text], input[type=email], textarea {
+	font-size: 14pt;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+	font-size: 10pt;
+    width: 100%;
+}
+
+
+.button-send {
+	background-color: #DCA718;
+    color: white;
+    padding: 10px 150px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 12px 16px #3d3d3d;
+}
+
+.button-send:active {
+	background-color: #d6a009;
+    box-shadow: 0 0 0 0 #3d3d3d;
+    color: #DEDEDE;
+}
+

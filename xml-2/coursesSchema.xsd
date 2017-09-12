@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="department" type="departmentType"/>
+	<xs:complexType name="departmentType">
+		<xs:sequence>
+			<xs:element ref="course" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="name" use="required" type="xs:string"/>
+	</xs:complexType>
+	
+	<xs:element name="course" type="courseType"/>
+	<xs:complexType name="courseType">
+		<xs:sequence>
+			<xs:element name="optionalMods">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="module" type="moduleType" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="compulsoryMods">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="module" type="moduleType" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="altCompulsoryMods">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element ref="section" minOccurs="1" maxOccurs="3"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="number" use="required" type="xs:string"/>
+		<xs:attribute name="name" use="required" type="xs:string"/>
+	</xs:complexType>
+	
+	<xs:element name="section">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="module" type="moduleType" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="modLimit" type="xs:integer"/>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:complexType name="moduleType">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="number" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="leader" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="acceptableFor" type="modList" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="compulsoryFor" type="modList" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="altCompulsoryFor" type="modList" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="prerequisites" type="courseList" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="status" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="semester" type="xs:string" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="modList">
+		<xs:sequence>
+			<xs:element name="courseNumber" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="courseList">
+		<xs:sequence>
+			<xs:element name="moduleNumber" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

@@ -1,0 +1,352 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax0ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix uni: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/> .
+@prefix course: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/course> .
+@prefix mod: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/course/module> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+uni:course-name a rdf:Property ;
+	rdfs:domain uni:Course .
+uni:module-name a rdf:Property ;
+	rdfs:domain uni:Module .
+uni:leader a rdf:Property;
+	rdfs:domain uni:Module .
+uni:acceptableFor a rdf:Property ;
+	rdfs:domain uni:Module .
+uni:compulsoryFor a rdf:Property ;
+	rdfs:domain uni:Module .
+uni:altCompulsoryFor a rdf:Property ;
+	rdfs:domain uni:Module .
+uni:prerequisites a rdf:Property ;
+	rdfs:domain uni:Module .
+uni:status a rdf:Property ;
+	rdfs:domain uni:Module .
+uni:semester a rdf:Property ;
+	rdfs:domain uni:Module .
+
+uni:leader a foaf:Person .
+
+course:EG82 a uni:Course;
+	uni:course-name "MSc Mobile & High Speed Telecommunication Networks" .
+
+course:CM79 a uni:Course;
+	uni:course-name "MSc Computing" .
+
+mod:P00013 a uni:Module;
+	uni:module-name "Independent Study I(x.5)";
+	uni:leader "Ian Bayley";
+	uni:acceptableFor course:CM50A;
+	uni:acceptableFor course:CM50B;
+	uni:acceptableFor course:CM50C;
+	uni:acceptableFor course:CM80A;
+	uni:acceptableFor course:CM80B;
+	uni:acceptableFor course:CM80C;
+	uni:acceptableFor course:CM85A;
+	uni:acceptableFor course:CM85B;
+	uni:acceptableFor course:CM85C;
+	uni:acceptableFor course:EG79A;
+	uni:acceptableFor course:EG79B;
+	uni:acceptableFor course:EG79C;
+	uni:acceptableFor course:EG82A;
+	uni:acceptableFor course:EG82B;
+	uni:acceptableFor course:EG82C;
+	uni:acceptableFor course:TE55A;
+	uni:acceptableFor course:TE55B;
+	uni:acceptableFor course:TE55C;
+	uni:acceptableFor course:TE56A;
+	uni:acceptableFor course:TE56B;
+	uni:acceptableFor course:TE56C;
+	uni:status "single";
+	uni:semester "1 or 2 or Summer" .
+
+mod:P00014 a uni:Module;
+	uni:module-name "Independent Study II";
+	uni:leader "Ian Bayley";
+	uni:acceptableFor course:CM50A;
+	uni:acceptableFor course:CM50B;
+	uni:acceptableFor course:CM50C;
+	uni:acceptableFor course:CM79A;
+	uni:acceptableFor course:CM79B;
+	uni:acceptableFor course:CM79C;
+	uni:acceptableFor course:CM80A;
+	uni:acceptableFor course:CM80B;
+	uni:acceptableFor course:CM80C;
+	uni:acceptableFor course:CM85A;
+	uni:acceptableFor course:CM85B;
+	uni:acceptableFor course:CM85C;
+	uni:acceptableFor course:EG79A;
+	uni:acceptableFor course:EG79B;
+	uni:acceptableFor course:EG79C;
+	uni:acceptableFor course:EG82A;
+	uni:acceptableFor course:EG82B;
+	uni:acceptableFor course:EG82C;
+	uni:acceptableFor course:TE55A;
+	uni:acceptableFor course:TE55B;
+	uni:acceptableFor course:TE55C;
+	uni:acceptableFor course:TE56A;
+	uni:acceptableFor course:TE56B;
+	uni:acceptableFor course:TE56C;
+	uni:acceptableFor course:TE59A;
+	uni:acceptableFor course:TE59B;
+	uni:acceptableFor course:TE59C1;
+	uni:acceptableFor course:TE61A;
+	uni:acceptableFor course:TE61B;
+	uni:acceptableFor course:TE61C;
+	uni:status "single";
+	uni:semester "1 or 2 or Summer" .
+
+mod:P00990 a uni:Module;
+	uni:module-name "Research and Scholarship Methods";
+	uni:leader "Faye Mitchell";
+	uni:compulsoryFor course:CM79A;
+	uni:compulsoryFor course:CM79B;
+	uni:acceptableFor course:CM79C;
+	uni:compulsoryFor course:CM80A;
+	uni:compulsoryFor course:CM80B;
+	uni:acceptableFor course:CM80C;
+	uni:compulsoryFor course:CM85A;
+	uni:compulsoryFor course:CM85B;
+	uni:acceptableFor course:CM85C;
+	uni:acceptableFor course:EG79B;
+	uni:acceptableFor course:EG79C;
+	uni:compulsoryFor course:EG82A;
+	uni:acceptableFor course:EG82B;
+	uni:acceptableFor course:EG82C;
+	uni:acceptableFor course:TE55B;
+	uni:acceptableFor course:TE55C;
+	uni:acceptableFor course:TE56C;
+	uni:acceptableFor course:TE59C1;
+	uni:acceptableFor course:TE61B;
+	uni:acceptableFor course:TE61C;
+	uni:compulsoryFor course:CM79A;
+	uni:compulsoryFor course:CM79B;
+	uni:compulsoryFor course:CM80A;
+	uni:compulsoryFor course:CM80B;
+	uni:compulsoryFor course:CM85A;
+	uni:compulsoryFor course:EG82A;
+	uni:compulsoryFor course:TE55A;
+	uni:compulsoryFor course:TE56A;
+	uni:compulsoryFor course:TE56B;
+	uni:compulsoryFor course:TE59A;
+	uni:compulsoryFor course:TE59B;
+	uni:compulsoryFor course:TE61A;
+	uni:status "single";
+	uni:semester "1" .
+
+mod:P00991 a uni:Module;
+	uni:module-name "Work Experience Placement";
+	uni:leader "Kashinath Basu";
+	uni:compulsoryFor course:CM50A;
+	uni:compulsoryFor course:CM79A;
+	uni:compulsoryFor course:CM80A;
+	uni:compulsoryFor course:CM85A;
+	uni:compulsoryFor course:EG82A;
+	uni:compulsoryFor course:TE55A;
+	uni:compulsoryFor course:TE56A;
+	uni:compulsoryFor course:TE59A;
+	uni:compulsoryFor course:TE61A;
+	uni:status "single";
+	uni:semester "1 or 2 or Summer" .
+
+mod:P00301 a uni:Module;
+	uni:module-name "Advance Mobile Communications";
+	uni:leader "Shumao Ou";
+	uni:acceptableFor course:EG79B;
+	uni:acceptableFor course:EG79C;
+	uni:acceptableFor course:EG82C;
+	uni:acceptableFor course:TE55C;
+	uni:compulsoryFor course:EG82A;
+	uni:compulsoryFor course:EG82B;
+	uni:compulsoryFor course:TE55A;
+	uni:compulsoryFor course:TE55B;
+	uni:prerequisites mod:P00330;
+	uni:status "single";
+	uni:semester "2" .
+
+mod:P00330 a uni:Module;
+	uni:module-name "Digital Mobile Communications";
+	uni:leader "Peter Ball";
+	uni:acceptableFor course:EG79B;
+	uni:acceptableFor course:EG79C;
+	uni:acceptableFor course:EG82C;
+	uni:acceptableFor course:TE55B;
+	uni:acceptableFor course:TE55C;
+	uni:compulsoryFor course:EG79A;
+	uni:compulsoryFor course:EG82A;
+	uni:compulsoryFor course:EG82B;
+	uni:altCompulsoryFor course:TE55A;
+	uni:status "single";
+	uni:semester "1" .
+
+mod:P00358 a uni:Module;
+	uni:module-name "High Speed Mobile Communications";
+	uni:leader "Shumao Ou";
+	uni:acceptableFor course:EG79B;
+	uni:acceptableFor course:EG79C;
+	uni:acceptableFor course:EG82C;
+	uni:acceptableFor course:TE55B;
+	uni:acceptableFor course:TE55C;
+	uni:compulsoryFor course:EG79A;
+	uni:compulsoryFor course:EG82A;
+	uni:compulsoryFor course:EG82B;
+	uni:altCompulsoryFor course:TE55A;
+	uni:prerequisites mod:P00300;
+	uni:status "single";
+	uni:semester "2" .
+
+mod:P00995 a uni:Module;
+	uni:module-name "MSc Dissertation in Communication";
+	uni:leader "unknown";
+	uni:acceptableFor course:EG79B;
+	uni:acceptableFor course:EG79C;
+	uni:acceptableFor course:EG82B;
+	uni:acceptableFor course:TE55B;
+	uni:compulsoryFor course:EG79A;
+	uni:compulsoryFor course:EG82A;
+	uni:compulsoryFor course:EG82D;
+	uni:compulsoryFor course:TE55A;
+	uni:compulsoryFor course:TE55D;
+	uni:altCompulsoryFor course:TE55A;
+	uni:prerequisites mod:P009900;
+	uni:status "treble";
+	uni:semester "1 or 2 or Summer" .
+
+mod:P00300 a uni:Module;
+	uni:module-name "Digital Communications";
+	uni:leader "Shumao Ou";
+	uni:acceptableFor course:EG79A;
+	uni:acceptableFor course:EG79B;
+	uni:acceptableFor course:EG79C;
+	uni:acceptableFor course:EG82B;
+	uni:acceptableFor course:EG82C;
+	uni:acceptableFor course:TE55B;
+	uni:acceptableFor course:TE55C;
+	uni:altCompulsoryFor course:EG82A;
+	uni:altCompulsoryFor course:TE55A;
+	uni:status "single";
+	uni:semester "1" .
+
+mod:P00552 a uni:Module;
+	uni:module-name "Network Principles";
+	uni:leader "Kashinath Basu";
+	uni:acceptableFor course:CM80A;
+	uni:acceptableFor course:CM80B;
+	uni:acceptableFor course:CM80C;
+	uni:acceptableFor course:EG79A;
+	uni:acceptableFor course:EG79B;
+	uni:acceptableFor course:EG79C;
+	uni:acceptableFor course:EG82B;
+	uni:acceptableFor course:EG82C;
+	uni:acceptableFor course:TE55B;
+	uni:acceptableFor course:TE55C;
+	uni:acceptableFor course:TE59C1;
+	uni:acceptableFor course:TE61B;
+	uni:acceptableFor course:TE61C;
+	uni:compulsoryFor course:TE59A;
+	uni:compulsoryFor course:TE59B;
+	uni:compulsoryFor course:TE61A;
+	uni:altCompulsoryFor course:EG82A;
+	uni:altCompulsoryFor course:TE55A;
+	uni:status "single";
+	uni:semester "1" .
+
+mod:P00336 a uni:Module;
+	uni:module-name "Optical and Broadband Networks";
+	uni:leader "Peter Ball";
+	uni:acceptableFor course:EG79A;
+	uni:acceptableFor course:EG79B;
+	uni:acceptableFor course:EG79C;
+	uni:acceptableFor course:EG82B;
+	uni:acceptableFor course:EG82C;
+	uni:altCompulsoryFor course:EG82A;
+	uni:status "single";
+	uni:semester "2" .
+
+mod:P00556 a uni:Module;
+	uni:module-name "Enterprise and Multiservice Networks";
+	uni:leader "Kashinath Basu";
+	uni:acceptableFor course:CM80A;
+	uni:acceptableFor course:CM80B;
+	uni:acceptableFor course:CM80C;
+	uni:acceptableFor course:EG82B;
+	uni:acceptableFor course:EG82C;
+	uni:acceptableFor course:TE59B;
+	uni:acceptableFor course:TE59C1;
+	uni:compulsoryFor course:TE59A;
+	uni:altCompulsoryFor course:EG82A;
+	uni:prerequisites mod:P00552;
+	uni:status "single";
+	uni:semester "2" .
+
+mod:P00100 a uni:Module;
+	uni:module-name "Object-Oriented Programming";
+	uni:leader "David Sutton";
+	uni:compulsoryFor course:CM79A;
+	uni:compulsoryFor course:CM79B;
+	uni:status "single";
+	uni:semester "1" .
+	
+mod:P00191 a uni:Module;
+	uni:module-name "Computer and Network Systems";
+	uni:leader "Kashinath Basu";
+	uni:compulsoryFor course:CM79A;
+	uni:compulsoryFor course:CM79B;
+	uni:status "single";
+	uni:semester "2" .
+
+mod:P00991 a uni:Module;
+	uni:module-name "Work Experience Placement";
+	uni:leader "Kashinath Basu";
+	uni:compulsoryFor course:CM50A;
+	uni:compulsoryFor course:CM79A;
+	uni:compulsoryFor course:CM80A;
+	uni:compulsoryFor course:CM85A;
+	uni:compulsoryFor course:EG82A;
+	uni:compulsoryFor course:TE55A;
+	uni:compulsoryFor course:TE56A;
+	uni:compulsoryFor course:TE59A;
+	uni:compulsoryFor course:TE61A;
+	uni:status "single";
+	uni:semester "1 or 2 or Summer" .
+
+mod:P00404 a uni:Module;
+	uni:module-name "Software Production";
+	uni:leader "Rachel Harrison";
+	uni:compulsoryFor course:CM79A;
+	uni:compulsoryFor course:CM80A;
+	uni:compulsoryFor course:CM80B;
+	uni:compulsoryFor course:CM85A;
+	uni:compulsoryFor course:CM85B;
+	uni:compulsoryFor course:TE56A;
+	uni:status "single";
+	uni:semester "2" .
+
+mod:P00601 a uni:Module;
+	uni:module-name "Structured Data";
+	uni:leader "Muhammad Younas";
+	uni:compulsoryFor course:CM79A;
+	uni:status "single";
+	uni:semester "1" .
+
+mod:P00702 a uni:Module;
+	uni:module-name "Cyber Security and the Web";
+	uni:leader "Faye Mitchell";
+	uni:compulsoryFor course:CM79A;
+	uni:prerequisites mod:P00100;
+	uni:status "single";
+	uni:semester "2" .
+
+mod:P00998 a uni:Module;
+	uni:module-name "MSc Dissertation in Computing Subjects";
+	uni:leader "Shumao Ou";
+	uni:compulsoryFor course:CM79B;
+	uni:compulsoryFor course:CM79C;
+	uni:compulsoryFor course:CM80B;
+	uni:compulsoryFor course:CM80C;
+	uni:compulsoryFor course:CM85B;
+	uni:compulsoryFor course:CM85C;
+	uni:compulsoryFor course:TE56B;
+	uni:compulsoryFor course:TE56C;
+	uni:prerequisites mod:P00990;
+	uni:status "treble";
+	uni:semester "1 or 2 or Summer" .

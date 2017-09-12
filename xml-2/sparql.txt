@@ -1,0 +1,83 @@
+// Select all modules in semester 2
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax0ns#>
+
+PREFIX uni: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/>
+PREFIX course: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/course>
+PREFIX mod: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/course/module>
+
+SELECT ?name
+WHERE {
+  [ uni:semester "2" ] uni:module-name ?name
+}
+
+
+
+
+
+// Select modules with prerequisite of P00300
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax0ns#>
+PREFIX uni: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/>
+PREFIX course: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/course>
+PREFIX mod: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/course/module>
+
+SELECT ?name
+WHERE {
+  [ uni:prerequisites mod:P00300 ] uni:module-name ?name
+}
+
+
+// Select modules that are alternative compulsory for Course EG82
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX uni: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/>
+PREFIX course: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/course>
+PREFIX mod: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/course/module>
+
+SELECT DISTINCT ?name
+WHERE {
+  OPTIONAL { ?module uni:altCompulsoryFor course:EG82A . ?module uni:module-name ?name}
+  OPTIONAL { ?module uni:altCompulsoryFor course:EG82B . ?module uni:module-name ?name}
+  OPTIONAL { ?module uni:altCompulsoryFor course:EG82C . ?module uni:module-name ?name}
+}
+
+
+
+
+
+// Add a new project
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX uni: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/>
+PREFIX course: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/course>
+PREFIX mod: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/course/module>
+
+INSERT DATA 
+{
+  mod:P00999 a _:a .
+  _:a uni:module-name "Live Project" .
+  _:a uni:semester "2"
+}
+
+
+
+// Make Clare Martin leader
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX uni: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/>
+PREFIX course: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/course>
+PREFIX mod: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/course/module>
+
+INSERT DATA {
+  	mod:P00999 uni:leader "Clare Martin" .
+}
+
+
+// Add acceptable courses and prerequisite modules
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX uni: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/>
+PREFIX course: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/course>
+PREFIX mod: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/course/module>
+
+INSERT DATA {
+  	mod:P00999 uni:acceptableFor course:EG82 .
+    mod:P00999 uni:acceptableFor course:CM79 .
+    mod:P00999 uni:prerequisities mod:P00990
+}
+

@@ -1,0 +1,82 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax0ns#> .
+@prefix uni: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/> .
+@prefix mod: <http://cct.brookes.ac.uk/modules/U08073/2017/14038690/course/module> .
+
+mod:P00100 a uni:Module;
+	uni:name "Object-Oriented Programming";
+	uni:leader "David Sutton";
+	uni:compulsoryFor "CM79A, CM79B";
+	uni:prerequisites "";
+	uni:status "single";
+	uni:semester "1" .
+	
+mod:P00191 a uni:Module;
+	uni:name "Computer and Network Systems";
+	uni:leader "Kashinath Basu";
+	uni:compulsoryFor "CM79A, CM79B";
+	uni:prerequisites "";
+	uni:status "single";
+	uni:semester "2" .
+
+mod:P00991 a uni:Module;
+	uni:name "Work Experience Placement";
+	uni:leader "Kashinath Basu";
+	uni:compulsoryFor "CM50A, CM79A, CM80A, CM85A
+						EG82A, TE55A, TE56A, TE59A,
+						TE61A";
+	uni:prerequisites "";
+	uni:status "single";
+	uni:semester "1 or 2 or Summer" .
+
+mod:P00990 a uni:Module;
+	uni:name "Research and Scholarship Methods";
+	uni:leader "Faye Mitchell";
+	uni:compulsoryFor "CM79A, CM79B, CM80A, CM80B,
+						CM85A, CM85B, EG82A, TE55A,
+						TE56A, TE56B, TE59A, TE59B,
+						TE61A";
+	uni:prerequisites "";
+	uni:status "single";
+	uni:semester "1" .
+
+mod:P00404 a uni:Module;
+	uni:name "Software Production";
+	uni:leader "Rachel Harrison";
+	uni:compulsoryFor "CM79A, CM80A, CM80B, 
+						CM85A, CM85B, TE56A";
+	uni:prerequisites "";
+	uni:status "single";
+	uni:semester "2" .
+
+mod:P00601 a uni:Module;
+	uni:name "Structured Data";
+	uni:leader "Muhammad Younas";
+	uni:compulsoryFor "CM79A";
+	uni:prerequisites "";
+	uni:status "single";
+	uni:semester "1" .
+
+mod:P00702 a uni:Module;
+	uni:name "Cyber Security and the Web";
+	uni:leader "Faye Mitchell";
+	uni:compulsoryFor "CM79A";
+	uni:prerequisites "P00100";
+	uni:status "single";
+	uni:semester "2" .
+
+mod:P00998 a uni:Module;
+	uni:name "MSc Dissertation in Computing Subjects";
+	uni:leader "Shumao Ou";
+	uni:compulsoryFor "CM79B, CM79C, CM80B, CM80C,
+						CM85B, CM85C, TE56B, TE56C";
+	uni:prerequisites "P00990";
+	uni:status "treble";
+	uni:semester "1 or 2 or Summer" .
+
+mod:P0014 a uni:Module;
+	uni:name "Independent Study II";
+	uni:leader "Ian Bayley";
+	uni:compulsoryFor "";
+	uni:prerequisites "";
+	uni:status "Single";
+	uni:semester "1 or 2 or Summer" .

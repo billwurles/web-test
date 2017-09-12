@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="masters.xsl"?>
+<course>
+	<name>Computing</name>
+	<number>CM79</number>
+	<module>
+		<name>Object-Oriented Programming</name>
+		<number>P00100</number>
+		<leader>David Sutton</leader>
+		<compulsoryFor>CM79A, CM79B</compulsoryFor>
+		<prerequisites></prerequisites>
+		<status>single</status>
+		<semester>1</semester>
+	</module>
+	<module>
+		<name>Computer and Network Systems</name>
+		<number>P00191</number>
+		<leader>Kashinath Basu</leader>
+		<compulsoryFor>CM79A, CM79B</compulsoryFor>
+		<prerequisites></prerequisites>
+		<status>single</status>
+		<semester>2</semester>
+	</module>
+	<module>
+		<name>Work Experience Placement</name>
+		<number>P00991</number>
+		<leader>Kashinath Basu</leader>
+		<compulsoryFor>CM50A, CM79A, CM80A, CM85A
+						EG82A, TE55A, TE56A, TE59A,
+						TE61A
+		</compulsoryFor>
+		<prerequisites></prerequisites>
+		<status>single</status>
+		<semester>1 or 2 or Summer</semester>
+	</module>
+	<module>
+		<name>Research and Scholarship Methods</name>
+		<number>P00990</number>
+		<leader>Faye Mitchell</leader>
+		<compulsoryFor>CM79A, CM79B, CM80A, CM80B,
+						CM85A, CM85B, EG82A, TE55A,
+						TE56A, TE56B, TE59A, TE59B,
+						TE61A
+		</compulsoryFor>
+		<prerequisites></prerequisites>
+		<status>single</status>
+		<semester>1</semester>
+	</module>
+	<module>
+		<name>Software Production</name>
+		<number>P00404</number>
+		<leader>Rachel Harrison</leader>
+		<compulsoryFor>CM79A, CM80A, CM80B, 
+						CM85A, CM85B, TE56A
+		</compulsoryFor>
+		<prerequisites></prerequisites>
+		<status>single</status>
+		<semester>2</semester>
+	</module>
+	<module>
+		<name>Structured Data</name>
+		<number>P00601</number>
+		<leader>Muhammad Younas</leader>
+		<compulsoryFor>CM79A</compulsoryFor>
+		<prerequisites></prerequisites>
+		<status>single</status>
+		<semester>1</semester>
+	</module>
+	<module>
+		<name>Cyber Security and the Web</name>
+		<number>P00702</number>
+		<leader>Faye Mitchell</leader>
+		<compulsoryFor>CM79A</compulsoryFor>
+		<prerequisites>P00100</prerequisites>
+		<status>single</status>
+		<semester>2</semester>
+	</module>
+	<module>
+		<name>MSc Dissertation in Computing Subjects</name>
+		<number>P00998</number>
+		<leader>Shumao Ou</leader>
+		<compulsoryFor>CM79B, CM79C, CM80B, CM80C,
+						CM85B, CM85C, TE56B, TE56C
+		</compulsoryFor>
+		<prerequisites>P00990</prerequisites>
+		<status>treble</status>
+		<semester>1 or 2 or Summer</semester>
+	</module>
+	<module>
+		<name>Independent Study II</name>
+		<number>P00014</number>
+		<leader>Ian Bayley</leader>
+		<compulsoryFor></compulsoryFor>
+		<prerequisites></prerequisites>
+		<status>single</status>
+		<semester>1 or 2 or Summer</semester>
+	</module>	
+</course>

@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="masters.xsl"?>
+<department name="Computing Department">
+	<course number="EG82" name="MSc Mobile &amp; High Speed Telecommunication Networks">
+		<optionalMods>
+			<module>
+				<name>Independent Study I(x.5)</name>
+				<number>P00013</number>
+				<leader>Ian Bayley</leader>
+				<acceptableFor>
+					<courseNumber>CM50A</courseNumber>
+					<courseNumber>CM50B</courseNumber>
+					<courseNumber>CM50C</courseNumber>
+					<courseNumber>CM80A</courseNumber>
+					<courseNumber>CM80B</courseNumber>
+					<courseNumber>CM80C</courseNumber>
+					<courseNumber>CM85A</courseNumber>
+					<courseNumber>CM85B</courseNumber>
+					<courseNumber>CM85C</courseNumber>
+					<courseNumber>EG79A</courseNumber>
+					<courseNumber>EG79B</courseNumber>
+					<courseNumber>EG79C</courseNumber>
+					<courseNumber>EG82A</courseNumber>
+					<courseNumber>EG82B</courseNumber>
+					<courseNumber>EG82C</courseNumber>
+					<courseNumber>TE55A</courseNumber>
+					<courseNumber>TE55B</courseNumber>
+					<courseNumber>TE55C</courseNumber>
+					<courseNumber>TE56A</courseNumber>
+					<courseNumber>TE56B</courseNumber>
+					<courseNumber>TE56C</courseNumber>
+				</acceptableFor>
+				<status>single</status>
+				<semester>1 or 2 or Summer</semester>
+			</module>
+			<module>
+				<name>Independent Study II</name>
+				<number>P00014</number>
+				<leader>Ian Bayley</leader>
+				<acceptableFor>
+					<courseNumber>CM50A</courseNumber>
+					<courseNumber>CM50B</courseNumber>
+					<courseNumber>CM50C</courseNumber>
+					<courseNumber>CM79A</courseNumber>
+					<courseNumber>CM79B</courseNumber>
+					<courseNumber>CM79C</courseNumber>
+					<courseNumber>CM80A</courseNumber>
+					<courseNumber>CM80B</courseNumber>
+					<courseNumber>CM80C</courseNumber>
+					<courseNumber>CM85A</courseNumber>
+					<courseNumber>CM85B</courseNumber>
+					<courseNumber>CM85C</courseNumber>
+					<courseNumber>EG79A</courseNumber>
+					<courseNumber>EG79B</courseNumber>
+					<courseNumber>EG79C</courseNumber>
+					<courseNumber>EG82A</courseNumber>
+					<courseNumber>EG82B</courseNumber>
+					<courseNumber>EG82C</courseNumber>
+					<courseNumber>TE55A</courseNumber>
+					<courseNumber>TE55B</courseNumber>
+					<courseNumber>TE55C</courseNumber>
+					<courseNumber>TE56A</courseNumber>
+					<courseNumber>TE56B</courseNumber>
+					<courseNumber>TE56C</courseNumber>
+					<courseNumber>TE59A</courseNumber>
+					<courseNumber>TE59B</courseNumber>
+					<courseNumber>TE59C1</courseNumber>
+					<courseNumber>TE61A</courseNumber>
+					<courseNumber>TE61B</courseNumber>
+					<courseNumber>TE61C</courseNumber>
+				</acceptableFor>
+				<status>single</status>
+				<semester>1 or 2 or Summer</semester>
+			</module>
+		</optionalMods>
+		<compulsoryMods>
+			<module>
+				<name>Research and Scholarship Methods</name>
+				<number>P00990</number>
+				<leader>Faye Mitchell</leader>
+				<acceptableFor>
+					<courseNumber>CM79C</courseNumber>
+					<courseNumber>CM80C</courseNumber>
+					<courseNumber>CM85C</courseNumber>
+					<courseNumber>EG79B</courseNumber>
+					<courseNumber>EG79C</courseNumber>
+					<courseNumber>EG82B</courseNumber>
+					<courseNumber>EG82C</courseNumber>
+					<courseNumber>TE55B</courseNumber>
+					<courseNumber>TE55C</courseNumber>
+					<courseNumber>TE56C</courseNumber>
+					<courseNumber>TE59C1</courseNumber>
+					<courseNumber>TE61B</courseNumber>
+					<courseNumber>TE61C</courseNumber>
+				</acceptableFor>
+				<compulsoryFor>
+					<courseNumber>CM79A</courseNumber>
+					<courseNumber>CM79B</courseNumber>
+					<courseNumber>CM80A</courseNumber>
+					<courseNumber>CM80B</courseNumber>
+					<courseNumber>CM85A</courseNumber>
+					<courseNumber>EG82A</courseNumber>
+					<courseNumber>TE55A</courseNumber>
+					<courseNumber>TE56A</courseNumber>
+					<courseNumber>TE56B</courseNumber>
+					<courseNumber>TE59A</courseNumber>
+					<courseNumber>TE59B</courseNumber>
+					<courseNumber>TE61A</courseNumber>
+				</compulsoryFor>
+				<status>single</status>
+				<semester>1</semester>
+			</module>
+			<module>
+				<name>Work Experience Placement</name>
+				<number>P00991</number>
+				<leader>Kashinath Basu</leader>
+				<compulsoryFor>
+					<courseNumber>CM50A</courseNumber>
+					<courseNumber>CM79A</courseNumber>
+					<courseNumber>CM80A</courseNumber>
+					<courseNumber>CM85A</courseNumber>
+					<courseNumber>EG82A</courseNumber>
+					<courseNumber>TE55A</courseNumber>
+					<courseNumber>TE56A</courseNumber>
+					<courseNumber>TE59A</courseNumber>
+					<courseNumber>TE61A</courseNumber>
+				</compulsoryFor>
+				<status>single</status>
+				<semester>1 or 2 or Summer</semester>
+			</module>
+			<module>
+				<name>Advanced Mobile Communications</name>
+				<number>P00301</number>
+				<leader>Shumao Ou</leader>
+				<acceptableFor>
+					<courseNumber>EG79B</courseNumber>
+					<courseNumber>EG79C</courseNumber>
+					<courseNumber>EG82C</courseNumber>
+					<courseNumber>TE55C</courseNumber>
+				</acceptableFor>
+				<compulsoryFor>
+					<courseNumber>EG82A</courseNumber>
+					<courseNumber>EG82B</courseNumber>
+					<courseNumber>TE55A</courseNumber>
+					<courseNumber>TE55B</courseNumber>
+				</compulsoryFor>
+				<prerequisites>
+					<moduleNumber>P00330</moduleNumber>
+				</prerequisites>
+				<status>single</status>
+				<semester>2</semester>
+			</module>
+			<module>
+				<name>Digital Mobile Communications</name>
+				<number>P00330</number>
+				<leader>Peter Ball</leader>
+				<acceptableFor>
+					<courseNumber>EG79B</courseNumber>
+					<courseNumber>EG79C</courseNumber>
+					<courseNumber>EG82C</courseNumber>
+					<courseNumber>TE55B</courseNumber>
+					<courseNumber>TE55C</courseNumber>
+				</acceptableFor>
+				<compulsoryFor>
+					<courseNumber>EG79A</courseNumber>
+					<courseNumber>EG82A</courseNumber>
+					<courseNumber>EG82B</courseNumber>
+				</compulsoryFor>
+				<altCompulsoryFor>
+					<courseNumber>TE55A</courseNumber>
+				</altCompulsoryFor>
+				<status>single</status>
+				<semester>1</semester>
+			</module>
+			<module>
+				<name>High Speed Mobile Communications</name>
+				<number>P00358</number>
+				<leader>Shumao Ou</leader>
+				<acceptableFor>
+					<courseNumber>EG79B</courseNumber>
+					<courseNumber>EG79C</courseNumber>
+					<courseNumber>EG82C</courseNumber>
+					<courseNumber>TE55B</courseNumber>
+					<courseNumber>TE55C</courseNumber>
+				</acceptableFor>
+				<compulsoryFor>
+					<courseNumber>EG79A</courseNumber>
+					<courseNumber>EG82A</courseNumber>
+					<courseNumber>EG82B</courseNumber>
+				</compulsoryFor>
+				<altCompulsoryFor>
+					<courseNumber>TE55A</courseNumber>
+				</altCompulsoryFor>
+				<prerequisites>
+					<moduleNumber>P00300</moduleNumber>
+					<moduleNumber>P00330</moduleNumber>
+				</prerequisites>
+				<status>single</status>
+				<semester>2</semester>
+			</module>
+			<module>
+				<name>MSc Dissertation in Communication Technologies</name>
+				<number>P00995</number>
+				<leader>unknown</leader>
+				<acceptableFor>
+					<courseNumber>EG79B</courseNumber>
+					<courseNumber>EG79C</courseNumber>
+					<courseNumber>EG82B</courseNumber>
+					<courseNumber>TE55B</courseNumber>
+				</acceptableFor>
+				<compulsoryFor>
+					<courseNumber>EG79A</courseNumber>
+					<courseNumber>EG82A</courseNumber>
+					<courseNumber>EG82D</courseNumber>
+					<courseNumber>TE55A</courseNumber>
+					<courseNumber>TE55D</courseNumber>
+				</compulsoryFor>
+				<altCompulsoryFor>
+					<courseNumber>TE55A</courseNumber>
+				</altCompulsoryFor>
+				<prerequisites>
+					<moduleNumber>P00990</moduleNumber>
+				</prerequisites>
+				<status>treble</status>
+				<semester>1 or 2 or Summer</semester>
+			</module>
+		</compulsoryMods>
+		<altCompulsoryMods>
+			<section modLimit="1">
+				<module>
+					<name>Digital Communications</name>
+					<number>P00300</number>
+					<leader>Shumao Ou</leader>
+					<acceptableFor>
+						<courseNumber>EG79A</courseNumber>
+						<courseNumber>EG79B</courseNumber>
+						<courseNumber>EG79C</courseNumber>
+						<courseNumber>EG82B</courseNumber>
+						<courseNumber>EG82C</courseNumber>
+						<courseNumber>TE55B</courseNumber>
+						<courseNumber>TE55C</courseNumber>
+					</acceptableFor>
+					<altCompulsoryFor>
+						<courseNumber>EG82A</courseNumber>
+						<courseNumber>TE55A</courseNumber>
+					</altCompulsoryFor>
+					<status>single</status>
+					<semester>1</semester>
+				</module>
+				<module>
+					<name>Network Principles</name>
+					<number>P00552</number>
+					<leader>Kashinath Basu</leader>
+					<acceptableFor>
+						<courseNumber>CM80A</courseNumber>
+						<courseNumber>CM80B</courseNumber>
+						<courseNumber>CM80C</courseNumber>
+						<courseNumber>EG79A</courseNumber>
+						<courseNumber>EG79B</courseNumber>
+						<courseNumber>EG79C</courseNumber>
+						<courseNumber>EG82B</courseNumber>
+						<courseNumber>EG82C</courseNumber>
+						<courseNumber>TE55B</courseNumber>
+						<courseNumber>TE55C</courseNumber>
+						<courseNumber>TE59C1</courseNumber>
+						<courseNumber>TE61B</courseNumber>
+						<courseNumber>TE61C</courseNumber>
+					</acceptableFor>
+					<compulsoryFor>
+						<courseNumber>TE59A</courseNumber>
+						<courseNumber>TE59B</courseNumber>
+						<courseNumber>TE61A</courseNumber>
+					</compulsoryFor>
+					<altCompulsoryFor>
+						<courseNumber>EG82A</courseNumber>
+						<courseNumber>TE55A</courseNumber>
+					</altCompulsoryFor>
+					<status>single</status>
+					<semester>1</semester>
+				</module>
+			</section>
+			<section modLimit="1">
+				<module>
+					<name>Optical and Broadband Networks</name>
+					<number>P00336</number>
+					<leader>Peter Ball</leader>
+					<acceptableFor>
+						<courseNumber>EG79A</courseNumber>
+						<courseNumber>EG79B</courseNumber>
+						<courseNumber>EG79C</courseNumber>
+						<courseNumber>EG82B</courseNumber>
+						<courseNumber>EG82C</courseNumber>
+					</acceptableFor>
+					<altCompulsoryFor>
+						<courseNumber>EG82A</courseNumber>
+					</altCompulsoryFor>
+					<status>single</status>
+					<semester>2</semester>
+				</module>
+				<module>
+					<name>Enterprise and Multiservice Networks</name>
+					<number>P00556</number>
+					<leader>Kashinath Basu</leader>
+					<acceptableFor>
+						<courseNumber>CM80A</courseNumber>
+						<courseNumber>CM80B</courseNumber>
+						<courseNumber>CM80C</courseNumber>
+						<courseNumber>EG82B</courseNumber>
+						<courseNumber>EG82C</courseNumber>
+						<courseNumber>TE59B</courseNumber>
+						<courseNumber>TE59C1</courseNumber>
+					</acceptableFor>
+					<compulsoryFor>
+						<courseNumber>TE59A</courseNumber>
+					</compulsoryFor>
+					<altCompulsoryFor>
+						<courseNumber>EG82A</courseNumber>
+					</altCompulsoryFor>
+					<prerequisites>
+						<moduleNumber>P00552</moduleNumber>
+					</prerequisites>
+					<status>single</status>
+					<semester>2</semester>
+				</module>
+			</section>
+		</altCompulsoryMods>
+	</course>
+	<course number="CM79" name="MSc Computing">
+		<optionalMods>
+			<module>
+				<name>Independent Study II</name>
+				<number>P00014</number>
+				<leader>Ian Bayley</leader>
+				<status>single</status>
+				<semester>1 or 2 or Summer</semester>
+			</module>
+		</optionalMods>
+		<compulsoryMods>
+			<module>
+				<name>Object-Oriented Programming</name>
+				<number>P00100</number>
+				<leader>David Sutton</leader>
+				<compulsoryFor>
+					<courseNumber>CM79A</courseNumber>
+					<courseNumber>CM79B</courseNumber>
+				</compulsoryFor>
+				<status>single</status>
+				<semester>1</semester>
+			</module>
+			<module>
+				<name>Computer and Network Systems</name>
+				<number>P00191</number>
+				<leader>Kashinath Basu</leader>
+				<compulsoryFor>
+					<courseNumber>CM79A</courseNumber>
+					<courseNumber>CM79B</courseNumber>
+				</compulsoryFor>
+				<status>single</status>
+				<semester>2</semester>
+			</module>
+			<module>
+				<name>Work Experience Placement</name>
+				<number>P00991</number>
+				<leader>Kashinath Basu</leader>
+				<compulsoryFor>
+					<courseNumber>CM50A</courseNumber>
+					<courseNumber>CM79A</courseNumber>
+					<courseNumber>CM80A</courseNumber>
+					<courseNumber>CM85A</courseNumber>
+					<courseNumber>EG82A</courseNumber>
+					<courseNumber>TE55A</courseNumber>
+					<courseNumber>TE56A</courseNumber>
+					<courseNumber>TE59A</courseNumber>
+					<courseNumber>TE61A</courseNumber>
+				</compulsoryFor>
+				<status>single</status>
+				<semester>1 or 2 or Summer</semester>
+			</module>
+			<module>
+				<name>Research and Scholarship Methods</name>
+				<number>P00990</number>
+				<leader>Faye Mitchell</leader>
+				<compulsoryFor>
+					<courseNumber>CM79A</courseNumber>
+					<courseNumber>CM79B</courseNumber>
+					<courseNumber>CM80A</courseNumber>
+					<courseNumber>CM80B</courseNumber>
+					<courseNumber>CM85A</courseNumber>
+					<courseNumber>CM85B</courseNumber>
+					<courseNumber>EG82A</courseNumber>
+					<courseNumber>TE55A</courseNumber>
+					<courseNumber>TE56A</courseNumber>
+					<courseNumber>TE56B</courseNumber>
+					<courseNumber>TE59A</courseNumber>
+					<courseNumber>TE59B</courseNumber>
+					<courseNumber>TE61A</courseNumber>
+				</compulsoryFor>
+				<status>single</status>
+				<semester>1</semester>
+			</module>
+			<module>
+				<name>Software Production</name>
+				<number>P00404</number>
+				<leader>Rachel Harrison</leader>
+				<compulsoryFor>
+					<courseNumber>CM79A</courseNumber>
+					<courseNumber>CM80A</courseNumber>
+					<courseNumber>CM80B</courseNumber>
+					<courseNumber>CM85A</courseNumber>
+					<courseNumber>CM85B</courseNumber>
+					<courseNumber>TE56A</courseNumber>
+				</compulsoryFor>
+				<status>single</status>
+				<semester>2</semester>
+			</module>
+			<module>
+				<name>Structured Data</name>
+				<number>P00601</number>
+				<leader>Muhammad Younas</leader>
+				<compulsoryFor>
+					<courseNumber>CM79A</courseNumber>
+				</compulsoryFor>
+				<status>single</status>
+				<semester>1</semester>
+			</module>
+			<module>
+				<name>Cyber Security and the Web</name>
+				<number>P00702</number>
+				<leader>Faye Mitchell</leader>
+				<compulsoryFor>
+					<courseNumber>CM79A</courseNumber>
+				</compulsoryFor>
+				<prerequisites>
+					<moduleNumber>P00100</moduleNumber>
+				</prerequisites>
+				<status>single</status>
+				<semester>2</semester>
+			</module>
+			<module>
+				<name>MSc Dissertation in Computing Subjects</name>
+				<number>P00998</number>
+				<leader>Shumao Ou</leader>
+				<compulsoryFor>
+					<courseNumber>CM79B</courseNumber>
+					<courseNumber>CM79C</courseNumber>
+					<courseNumber>CM80B</courseNumber>
+					<courseNumber>CM80C</courseNumber>
+					<courseNumber>CM85B</courseNumber>
+					<courseNumber>CM85C</courseNumber>
+					<courseNumber>TE56B</courseNumber>
+					<courseNumber>TE56C</courseNumber>
+				</compulsoryFor>
+				<prerequisites>
+					<moduleNumber>P00990</moduleNumber>
+				</prerequisites>
+				<status>treble</status>
+				<semester>1 or 2 or Summer</semester>
+			</module>	
+		</compulsoryMods>
+		<altCompulsoryMods><section modLimit="0"></section></altCompulsoryMods>	
+	</course>
+</department>
